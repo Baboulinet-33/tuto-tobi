@@ -23,7 +23,7 @@ ingress:
 client:
   replicaCount: 1
   image:
-    repository: harbor.apps.c6.numerique-interieur.com/mi-test/tuto-client
+    repository: harbor.apps.dso.numerique-interieur.com/mi-tobi/tuto-client
     pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"
@@ -65,7 +65,7 @@ client:
 server:
   replicaCount: 1
   image:
-    repository: harbor.apps.c6.numerique-interieur.com/mi-test/tuto-server
+    repository: harbor.apps.dso.numerique-interieur.com/mi-tobi/tuto-server
     pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"
