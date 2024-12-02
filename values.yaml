@@ -38,6 +38,8 @@ client:
     readOnlyRootFilesystem: true
     runAsNonRoot: true
     runAsUser: 1000
+    seccompProfile:
+      type: RuntimeDefault
     allowPrivilegeEscalation: false
   env: {}
   secrets: {}
